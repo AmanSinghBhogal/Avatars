@@ -1,0 +1,17 @@
+.AvtarCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 200px;
+    width: 180px;
+    margin: 10px;
+    box-shadow: rgb(155 149 149) 0px 0px 12px 0px;
+    cursor: pointer;
+}
+.AvtarCard img {
+    width: 70px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
