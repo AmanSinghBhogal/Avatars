@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1 align="center"><img align="" src="./public/avatars.png" alt="Error 404" height="35"> Avatar</h1>
+</div>
 
-## Getting Started
+<h2>Check it our at: https://avatars-steel.vercel.app/</h2>
 
-First, run the development server:
+## About Avatar:
+Avatar: The Last Airbender, also known as Avatar: The Legend of Aang in some regions, is an American anime-influenced animated television series produced by Nickelodeon Animation Studios. This is my very first Next.js application, I had been working with React.js for quite some time now and wanted to try out Next.js, so as an hands on learing experience I made this app.
 
-```bash
-npm run dev
-# or
-yarn dev
+## Screen Shots:
+<div align="center">
+  <img src="./public/images/S1.png" height="600"  alt="S1">
+  <img src="./public/images/S2.png" height="600"  alt="S2">
+  <img src="./public/images/S3.png" height="600"  alt="S3">
+  <img src="./public/images/S4.png" height="600"  alt="S4">
+</div>
+
+### Steps to Run on Local Machine
+
+***
+
+#### Note: You need to have Node.Js installed in your Local Machine if not, first install it from <a href="https://nodejs.org/en/">here</a>.
+##### Step 1) Clone AmanSinghBhogal/Avatars.
+##### Step 2) Open Avatars cloned Directory in Command Prompt and run the following command (It will install all the Dependencies needed to run):
 ```
+npm i
+```
+#### Step 3) Once all the dependencies are successfully installed, Run the following Command:
+```
+npm run dev
+```
+#### Step 4) Once the above steps are done you should get the message:
+    You can now view client in the browser.
+      Local:            http://localhost:3000 
+      webpack compiled successfully
+#### Step 5) Open Browser and go to http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+***
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<h1 align="center">Thank You</h1>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+***

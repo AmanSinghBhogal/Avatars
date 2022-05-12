@@ -22,6 +22,9 @@
     width: 80vw;
 }
 
+@media screen and (max-width: 756px) {
+}
+
 .link{
     color: inherit;
     text-decoration: none;

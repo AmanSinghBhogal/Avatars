@@ -10,7 +10,7 @@ export default function About({ Avatars }) {
             <div className={styles.content}>
                 {
                     Avatars.map((dataItem) => 
-                        <Link  href={`/characters/${dataItem._id}`} key={dataItem._id}>
+                        <Link className={styles.card}  href={`/characters/${dataItem._id}`} key={dataItem._id}>
                             <a className={styles.link}><AvtarCard dataItem={dataItem} /></a>
                         </Link>
                     )
