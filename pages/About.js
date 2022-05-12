@@ -1,16 +1,19 @@
 import axios from "axios";
-import Link from 'react-dom';
+import Link from 'next/link';
 import AvtarCard from "../src/components/AvtarCard";
 import styles from '../styles/About.module.css';
 
 export default function About({ Avatars }) {
-    console.log(Avatars);
     return (
         <div className={styles.container}>
             <div className={styles.title}>Avatars</div>
             <div className={styles.content}>
                 {
-                    Avatars.map((dataItem) => <AvtarCard dataItem={dataItem} />)
+                    Avatars.map((dataItem) => 
+                        <Link  href={`/characters/${dataItem._id}`} key={dataItem._id}>
+                            <a className={styles.link}><AvtarCard dataItem={dataItem} /></a>
+                        </Link>
+                    )
                 }
             </div>
         </div>

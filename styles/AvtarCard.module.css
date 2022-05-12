@@ -9,6 +9,7 @@
     margin: 10px;
     box-shadow: rgb(155 149 149) 0px 0px 12px 0px;
     cursor: pointer;
+    text-align: center;
 }
 .AvtarCard img {
     width: 70px;
